@@ -158,7 +158,7 @@ Instagram - приложение, которое используют по вс�
 | User      | id, email, password, phone, username, created_at             | `8+102+66+22+32+8= 238 байт`  | 2 млрд             | 443 Гб |
 | Profile   | id, user_id, name, avatar_url, biography                     | `8+8+102+256+1002= 1376 байт` | 2 млрд             | 2,5 Тб |
 | Post      | id, author_id, media_url, content, created_at                | `8+8+256+2002+8= 2282 байт`   | 50 млрд            | 104 Тб |
-| Comment   | id, user_id, post_id, parent_comment_id, content, created_at | `8+8+8+8+2002+8= 2042 байт`   | 150 млрд           | 280 Тб |
+| Comment   | id, user_id, post_id, parent_comment_id, content, created_at | `8+8+8+8+2002+8= 2042 байт`   | 100 млрд           | 185 Тб |
 | Like      | user_id, post_id, created_at                                 | `8+8+8= 24 байт`              | 500 млрд           | 11 Тб  |
 | Followers | id, user_id, follower_user_id, created_at                    | `8+8+8+8= 32 байт`            | 400 млрд           | 12 Тб  |
 
